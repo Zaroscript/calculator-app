@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Style files -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font From Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="head">
+        <h2 class="logo">Clac</h2>
+        <div class="themes">
+          <p>theme</p>
+          <div class="toggle">
+            <div class="theme active" data-theme="one">
+              <p>1</p>
+            </div>
+            <div class="theme" data-theme="two">
+              <p>2</p>
+            </div>
+            <div class="theme" data-theme="three">
+              <p>3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screen"></div>
+      <div class="body">
+        <div class="row">
+          <button class="main" data-value="7">7</button>
+          <button class="main" data-value="8">8</button>
+          <button class="main" data-value="9">9</button>
+          <button class="del" data-value="del">Del</button>
+        </div>
+        <div class="row">
+          <button class="main" data-value="4">4</button>
+          <button class="main" data-value="5">5</button>
+          <button class="main" data-value="6">6</button>
+          <button class="main" data-value="+">+</button>
+        </div>
+        <div class="row">
+          <button class="main" data-value="1">1</button>
+          <button class="main" data-value="2">2</button>
+          <button class="main" data-value="3">3</button>
+          <button class="main" data-value="-">-</button>
+        </div>
+        <div class="row">
+          <button class="main" data-value=".">.</button>
+          <button class="main" data-value="0">0</button>
+          <button class="main" data-value="/">/</button>
+          <button class="main" data-value="*">x</button>
+        </div>
+        <div class="row">
+          <button class="reset" data-value="reset">Reset</button>
+          <button class="equal" data-value="=">=</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Andrew801168">Zaro</a>.
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
