@@ -175,9 +175,3 @@ body {
 .body .row button.equal:hover {
   background-color: var(--equal-key-hover);
 }
-
-.attribution {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-}
